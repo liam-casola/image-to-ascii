@@ -8,3 +8,5 @@ $ ./image2ascii [filename] [width] [invert]
   3. invert: inverts the ascii representation so that darks become lights and lights become darks. this value can be 1 or 0. If not specified the default value is 0 where the ascii image is expected to have a white background and dark text
     
 Images heights are automatically scaled with the width and then cut in half to stay proportional as text characters height are approximatly twice their width. The resizing method utalizes nearest neighbor.
+
+The stb_image.h header file is utalized in this project to read image file formats
